@@ -13,7 +13,8 @@ This project is a mock website for the event "International Career Fair 2022" de
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo 
+Please visit the link: (https://dlwub.github.io/Capstone-Project-I/)
 
 [A Video Link](https://www.loom.com/share/db883ca2917448b581c1060f9ee46b52)
 
