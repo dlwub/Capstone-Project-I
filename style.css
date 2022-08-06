@@ -53,11 +53,6 @@ h4 {
   height: 2.34vw;
 }
 
-.nav-one a li,
-.nav-two a li {
-  list-style: none;
-}
-
 .nav-one a {
   margin-right: 1.15vw;
 }
@@ -97,8 +92,8 @@ h4 {
   display: flex;
 }
 
-.nav-two .nav-two-text a li,
-.nav-two .nav-two-text-about a li {
+.nav-two .nav-two-text a,
+.nav-two .nav-two-text-about a {
   margin-right: 4.2vw;
   color: rgba(4, 4, 4, 0.707);
 }
