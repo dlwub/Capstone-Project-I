@@ -60,4 +60,4 @@ We took a lot of infromation from EucA's ICF 2022 website:
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+&#169; 2022 Desta Legesse Wubishet
