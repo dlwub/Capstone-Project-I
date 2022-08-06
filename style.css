@@ -1,0 +1,771 @@
+/** Body **/
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #272a31;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 4.5vw;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+/* Elements visible in desktop version  */
+
+.whole-program,
+.nav-about {
+  display: block;
+}
+
+/** Header **/
+.nav-one,
+.nav-two {
+  display: flex;
+  align-items: center;
+}
+
+.nav-one {
+  justify-content: flex-end;
+  background: #272a31;
+  color: #fff;
+  padding-top: 0.325rem;
+  padding-bottom: 0.325rem;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.icon {
+  height: 2.34vw;
+}
+
+.nav-one a li,
+.nav-two a li {
+  list-style: none;
+}
+
+.nav-one a {
+  margin-right: 1.15vw;
+}
+
+.nav-one a:last-child {
+  margin-right: 10.18vw;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3.66vw;
+  margin: 0 0.59vw 0 9vw;
+}
+
+.event-name {
+  margin-right: 10vw;
+  font-size: 1.5vw;
+}
+
+.nav-two {
+  margin-top: 0;
+  padding-top: 0.625rem;
+  height: 3.66vw;
+  background: #fff;
+  padding-bottom: 1rem;
+  box-shadow: 2px 2px #d3d3d3;
+  -webkit-box-shadow: 2px 2px #d3d3d3;
+  -moz-box-shadow: 2px 2px #d3d3d3;
+}
+
+.nav-two-text,
+.nav-two-text-about {
+  display: flex;
+}
+
+.nav-two .nav-two-text a li,
+.nav-two .nav-two-text-about a li {
+  margin-right: 4.2vw;
+  color: rgba(4, 4, 4, 0.707);
+}
+
+.nav-two .nav-two-text a,
+.nav-two .nav-two-text-about a {
+  text-decoration: none;
+}
+
+.about,
+.home {
+  color: #ec5242;
+}
+
+.centered-list {
+  border: 4px solid #ec5242;
+  padding: 0.366vw 2.6vw;
+  text-align: center;
+  color: #ec5242;
+}
+
+/** First section **/
+.first-section {
+  background-image: url("images/gray_bg_4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 7.32vw;
+}
+
+.sub-title {
+  padding-top: 12rem;
+}
+
+.title-big {
+  padding-top: 0.3rem;
+}
+
+.sub-title,
+.title-big {
+  margin-top: 0;
+  padding-left: 11.71vw;
+  color: #ec5242;
+  background-image: url("images/orange_bg.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.first-section p,
+.event-date,
+.event-venue {
+  margin-left: 11.71vw;
+}
+
+.first-section p {
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 52.7vw;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1.76vw 1.17vw;
+  font-weight: 400;
+}
+
+/** Main programs **/
+.main-programs {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/black_bg_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5.86vw;
+  margin-bottom: 0;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 4.4vw;
+}
+
+.underlined {
+  padding-bottom: 0.586vw;
+  border-bottom: 2px solid #ec5242;
+}
+
+.program-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 1.76vw 15vw 4vw;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/black_bg.png");
+  width: 12vw;
+  height: 13vw;
+  padding: 1.46vw 0.73vw;
+}
+
+.program-img {
+  height: 3vw;
+  width: 3vw;
+  align-self: center;
+}
+
+.program-name {
+  color: #ec5242;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.program-description {
+  font-size: 0.75rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.whole-program {
+  display: flex;
+  justify-content: center;
+}
+
+.whole-program-link {
+  color: #fff;
+}
+
+/** Featured speakers **/
+
+.featured-speakers {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 3.6vw 12vw 3.6vw;
+  background: #f6f4f4a1;
+}
+
+.speakers-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 3vw;
+  color: #272a31;
+}
+
+.profile-div {
+  display: grid;
+  grid-template: 100% / 1fr 2fr;
+}
+
+.speakers-list {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  column-gap: 3vw;
+  row-gap: 2.25vw;
+}
+
+.img-div {
+  position: relative;
+}
+
+.chess {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 4rem;
+  height: 4rem;
+  z-index: 0;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 1.5vw;
+  left: 1.5vw;
+  width: 6.25rem;
+  height: 6.25rem;
+  z-index: 1;
+}
+
+.profile-text {
+  padding-top: 1.2vw;
+}
+
+.name,
+.bio-data {
+  margin-top: 0;
+  margin-bottom: 0.45vw;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.profile-role {
+  font-style: italic;
+  color: #ec5242;
+  margin: 0;
+}
+
+.underline_ {
+  color: #d3d3d3;
+  font-weight: 600;
+}
+
+.bio-data {
+  font-size: 0.75rem;
+  margin-top: 0.45vw;
+}
+
+/** Partners **/
+
+.partners-list {
+  display: flex;
+  flex-direction: column;
+  background: #272a31;
+}
+
+.partners-title {
+  display: flex;
+  justify-content: center;
+  color: #d3d3d3;
+}
+
+.logos-container {
+  display: flex;
+  align-items: center;
+  padding: 0.75vw 15vw 3vw;
+}
+
+.partner-logo {
+  width: 4.5vw;
+  height: 2.6vw;
+  padding-right: 13vw;
+}
+
+/** Footer **/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2.5vw 12vw;
+  background: #d3d3d3;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/** ============ About page ============================== **/
+
+/* About page navigation */
+.nav-about {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.2vw 4.8vw 0 0;
+}
+
+.nav-about-link {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.next {
+  padding-left: 3px;
+  color: #ec5242;
+}
+
+.home-icon {
+  height: 1.1vw;
+}
+
+.title-big-about {
+  color: #ec5242;
+  margin-top: 0;
+  padding-top: 2.4vw;
+  margin-bottom: 0;
+}
+
+/* About page first section */
+
+.first-section-about {
+  background-image: url("images/gray_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-bottom: 1px outset #d3d3d3;
+}
+
+.gap {
+  color: #ec5242;
+  margin-top: 0;
+  padding: 20px 0;
+}
+
+.about-paragraph {
+  background: #fff;
+  color: #272a31;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  margin-left: 19.16vw;
+  margin-right: 10.8vw;
+  padding: 1.5vw 3vw;
+}
+
+.contact {
+  padding-top: 2.4vw;
+  padding-bottom: 4.8vw;
+  color: #272a31;
+}
+
+/* About page who we are and past events section */
+.who-we-are,
+.past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  padding-bottom: 3.6vw;
+  border-bottom: 1px outset #fff;
+}
+
+.who-we-are h2,
+.past-events h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 2.4vw;
+}
+
+.who-we-are .gap,
+.past-events .gap {
+  display: flex;
+  color: #ec5242;
+  margin-top: 0;
+  padding-top: 0.374vw;
+  font-weight: 900;
+}
+
+.who-we-are p {
+  color: #272a31;
+  margin: 0.72vw 12vw 0.72vw 21.6vw;
+  padding-bottom: 2.4vw;
+}
+
+.euca-logo-name {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  padding: 0 4.8vw 2.4vw;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+.euca-logo {
+  height: 6vw;
+  margin-right: 0.75vw;
+}
+
+.euca-name {
+  padding-bottom: 0.375vw;
+}
+
+.euca-name-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.euca-name-address small {
+  align-self: center;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.latest-events {
+  margin-top: 0.72vw;
+}
+
+.event-images {
+  display: flex;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.event-image {
+  opacity: 0.5;
+  filter: brightness(0.5);
+  margin: 3vw 1.2vw 3.6vw;
+}
+
+.text-on-img-top {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.text-on-img-bottom {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  font-weight: 400;
+}
+
+/* About page footer */
+
+.footer-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2.5vw 12vw;
+  background: #272a31;
+  color: #fff;
+}
+
+/* Elements hidden in desktop version  */
+
+.mobile-nav,
+.mobile-nav-about,
+.join-event,
+.more-btn,
+.partners-about,
+.close_btn,
+.close_btn_about {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Elements displayed in mobile version */
+  .mobile-nav,
+  .mobile-nav-about,
+  .join-event,
+  .whole-program,
+  .more-btn,
+  .partners-about {
+    display: block;
+  }
+
+  /* Elements hidden in mobile version */
+  .nav-one,
+  .nav-two,
+  .whole-program,
+  .footer,
+  .partners-list,
+  .nav-about {
+    display: none;
+  }
+
+  /* Body */
+  body {
+    margin: 0;
+  }
+
+  /** Navigation **/
+  .mobile-nav,
+  .mobile-nav-about {
+    margin-left: 4.2vw;
+    padding-top: 3vw;
+    margin-bottom: 0;
+  }
+
+  .sub-title {
+    padding-top: 6vw;
+  }
+
+  .sub-title,
+  .title-big {
+    margin-left: 3vw;
+    padding-left: 0;
+  }
+
+  .first-section p,
+  .event-date,
+  .event-venue {
+    margin-left: 1.8vw;
+  }
+
+  .first-section p {
+    width: calc(100% - 3.6vw);
+  }
+
+  /** Main programs **/
+  .program-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 1vw 1.5vw;
+  }
+
+  .program {
+    display: grid;
+    grid-template: 100% / 25% 25% 50%;
+    width: 90%;
+    padding: 1vw 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .program-img {
+    height: 5vw;
+    width: 5vw;
+    align-self: center;
+    margin-left: 2vw;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .program-name {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .program-description {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    margin: 1.5vw;
+    grid-row: 1;
+    grid-column: 3;
+  }
+
+  .join-event {
+    background: #ec5242;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem;
+    margin: 3rem 6rem;
+  }
+
+  /** Featured speakers section **/
+
+  .featured-speakers {
+    background: #fff;
+  }
+
+  .speakers-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    top: 2vw;
+    left: 2vw;
+  }
+
+  .speakers-title {
+    margin-top: 0;
+    margin-bottom: 2vw;
+  }
+
+  .more-btn {
+    margin: 2.5rem 0.625rem 2rem;
+    background: #fff;
+    border: 2px solid #d3d3d3;
+    padding: 0.7rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .arrow {
+    border: solid #ec5242;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 6px;
+  }
+
+  /** About section **/
+  .event-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners-about {
+    background: #272a31;
+    color: #fff;
+    padding: 1.5vw 0;
+  }
+
+  .footer-about {
+    background: #fff;
+    color: #272a31;
+  }
+
+  .euca {
+    font-size: 1.5vw;
+  }
+
+  .logos-container-about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-container-1,
+  .logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.5vw 0;
+  }
+
+  .close_btn,
+  .close_btn_about {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .active-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav,
+  .mobile-nav-about,
+  .close_btn,
+  .close_btn_about {
+    cursor: pointer;
+  }
+
+  .home-menu-container,
+  .about-menu-container {
+    text-align: center;
+    padding: 5rem 0;
+  }
+
+  .nav-two-text a,
+  .nav-two-text-about a {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.3rem;
+  }
+
+  .nav-two-text a:focus,
+  .nav-two-text a:hover,
+  .nav-two-text-about a:focus,
+  .nav-two-text-about a:hover,
+  .nav-two-text span:focus,
+  .nav-two-text span:hover,
+  .nav-two-text-about span:focus,
+  .nav-two-text-about span:hover {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .nav-two-text .centered-list,
+  .nav-two-text-about .centered-list {
+    border: none;
+    color: #272a31;
+  }
+}
