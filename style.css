@@ -96,10 +96,6 @@ h4 {
 .nav-two .nav-two-text-about a {
   margin-right: 4.2vw;
   color: rgba(4, 4, 4, 0.707);
-}
-
-.nav-two .nav-two-text a,
-.nav-two .nav-two-text-about a {
   text-decoration: none;
 }
 
