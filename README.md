@@ -3,7 +3,6 @@
 # Project Name
 # Capstone Project I at Microverse 
 
-> Description the project.
 This project is a mock website for the event "International Career Fair 2022" designed as a capstone project at Microverse.
 
 
