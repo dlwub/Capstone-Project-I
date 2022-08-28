@@ -2,7 +2,7 @@ const aboutMenuContainer = document.createElement('div');
 aboutMenuContainer.className = 'about-menu-container';
 const aboutMenu = document.querySelector('.nav-two-text-about');
 const mobileNavAbout = document.querySelector('.mobile-nav-about');
-const closeBtnAbout = document.querySelector('.closeBtnAbout');
+const closeBtnAbout = document.querySelector('.close-btn-about');
 const mobileMenuAbout = document.querySelector('.mobile-menu-about');
 
 window.addEventListener('resize', ()=> {        
