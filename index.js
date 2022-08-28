@@ -104,14 +104,14 @@ const speakers = speakersList.children;
 const moreBtn = document.querySelector('.more-btn');
 
 function displaySpeakers(){
-	for(let i = 0; i < speakers.length; i + 1){
+	for(let i = 0; i < speakers.length; i += 1){
 		speakers[i].style.display = 'block';                
 	}
 	this.location.reload();        
 }
 
 function hideSpeakers(){
-	for(let i = 0; i < speakers.length; i + 1){
+	for(let i = 0; i < speakers.length; i += 1){
 		if(i >= 2){
 			speakers[i].style.display = 'none';
 		}
@@ -136,7 +136,7 @@ const homeMenuContainer = document.createElement('div');
 homeMenuContainer.className = "home-menu-container";
 const homeMenu = document.querySelector('.nav-two-text');
 const mobileNav = document.querySelector('.mobile-nav');
-const closeBtn = document.querySelector('.closeBtn');
+const closeBtn = document.querySelector('.close-btn');
 const mobileMenuHome = document.querySelector('.mobile-menu');
 
 function showMenu(homeMenu, mobileNav, closeBtn, menuContainer, mobileMenuHome){
