@@ -203,7 +203,7 @@ h4 {
 .program-name {
   color: #ec5242;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .program-description {
@@ -734,18 +734,18 @@ h4 {
     padding: 5rem 0;
   }
 
-  .nav-two-text a,
-  .nav-two-text-about a {
+  .nav-two-text li,
+  .nav-two-text-about li {
     list-style-type: none;
     text-decoration: none;
     font-weight: bold;
     line-height: 1.3rem;
   }
 
-  .nav-two-text a:focus,
-  .nav-two-text a:hover,
-  .nav-two-text-about a:focus,
-  .nav-two-text-about a:hover,
+  .nav-two-text li a:focus,
+  .nav-two-text li a:hover,
+  .nav-two-text-about li a:focus,
+  .nav-two-text-about li a:hover,
   .nav-two-text span:focus,
   .nav-two-text span:hover,
   .nav-two-text-about span:focus,

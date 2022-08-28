@@ -136,7 +136,7 @@ const homeMenuContainer = document.createElement('div');
 homeMenuContainer.className = "home-menu-container";
 const homeMenu = document.querySelector('.nav-two-text');
 const mobileNav = document.querySelector('.mobile-nav');
-const closeBtn = document.querySelector('.closeBtn');
+const closeBtn = document.querySelector('.close_btn');
 const mobileMenuHome = document.querySelector('.mobile-menu');
 
 function showMenu(homeMenu, mobileNav, closeBtn, menuContainer, mobileMenuHome){
