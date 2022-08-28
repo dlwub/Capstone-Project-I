@@ -523,8 +523,8 @@ h4 {
 .join-event,
 .more-btn,
 .partners-about,
-.close_btn,
-.close_btn_about {
+.close-btn,
+.close-btn-about {
   display: none;
 }
 
@@ -707,8 +707,8 @@ h4 {
     padding: 1.5vw 0;
   }
 
-  .close_btn,
-  .close_btn_about {
+  .close-btn,
+  .close-btn-about {
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -723,8 +723,8 @@ h4 {
 
   .mobile-nav,
   .mobile-nav-about,
-  .close_btn,
-  .close_btn_about {
+  .close-btn,
+  .close-btn-about {
     cursor: pointer;
   }
 
